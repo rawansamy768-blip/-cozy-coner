@@ -1,0 +1,570 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cozy Corner</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      
+      <!-- Logo -->
+      <a href="#home" class="logo">
+        <img src="images/logo.png" alt="Cozy Corner">
+      </a>
+
+      <!-- Nav Links -->
+      <nav class="navbar">
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#inspiration">Inspiration</a>
+        <a href="#lighting">Collections</a>
+        <a href="#why-us">About</a>
+      </nav>
+
+      <!-- Header Actions (Icons + Phone) -->
+      <div class="header-actions">
+        <a href="tel:+01012345678" class="nav-phone">
+          <i class="fa-solid fa-phone"></i>
+          +01012345678
+        </a>
+
+        <div class="nav-icons">
+          <a href="#" class="icon-link" title="Account">
+            <i class="fa-regular fa-user"></i>
+          </a>
+
+          <a href="#" class="icon-link" title="Wishlist">
+            <i class="fa-regular fa-heart"></i>
+            <span class="badge">0</span>
+          </a>
+
+          <a href="#" class="icon-link" title="Cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="badge cart-count">0</span>
+          </a>
+        </div>
+
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="swiper heroSwiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <img src="./images/hero-1.jpg" alt="Cozy Corner">
+          <div class="hero-content">
+            <h1>Enjoy Your Coffee</h1>
+            <p>Fresh coffee, delicious food and a cozy place to make your day better.</p>
+            <a href="#products" class="hero-btn">View Menu</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <img src="./images/hero-2.jpg" alt="Cozy Corner">
+          <div class="hero-content">
+            <h1>Welcome To Cozy Corner</h1>
+            <p>Your favorite place to relax, enjoy and spend beautiful moments.</p>
+            <a href="#products" class="hero-btn">View Menu</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <img src="./images/hero-3.jpg" alt="Cozy Corner">
+          <div class="hero-content">
+            <h1>Taste The Difference</h1>
+            <p>Discover our delicious coffee and fresh treats made especially for you.</p>
+            <a href="#products" class="hero-btn">View Menu</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+      <!-- Dots -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-section" id="categories">
+    <div class="container">
+      <h2 class="categories-title">Shop by top categories</h2>
+      <div class="categories">
+        <div class="category">
+          <img src="images/category-1.png" alt="">
+          <h3>Wardrobes</h3>
+        </div>
+        <div class="category">
+          <img src="images/category-2.png" alt="">
+          <h3>Chairs</h3>
+        </div>
+        <div class="category">
+          <img src="images/category-3.png" alt="">
+          <h3>Desks</h3>
+        </div>
+        <div class="category">
+          <img src="images/category-4.png" alt="">
+          <h3>Tables</h3>
+        </div>
+        <div class="category">
+          <img src="images/category-5.png" alt="">
+          <h3>Lighting</h3>
+        </div>
+        <div class="category">
+          <img src="images/category-6.png" alt="">
+          <h3>Cabinets</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offers Title & Section -->
+  <section class="offers-section">
+    <div class="gallery-title offers-title">
+      <h2>Special Offers</h2>
+    </div>
+
+    <div class="offers">
+      <div class="offer-card">
+        <img src="./images/offer-1.jpg" alt="Special Offer">
+        <div class="offer-content">
+          <span>Special Offer</span>
+          <h3>Fresh Coffee</h3>
+          <p>20% OFF</p>
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+
+      <div class="offer-card">
+        <img src="./images/offer-2.jpg" alt="Special Offer">
+        <div class="offer-content">
+          <span>Special Offer</span>
+          <h3>Sweet Dessert</h3>
+          <p>15% OFF</p>
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+
+      <div class="offer-card">
+        <img src="./images/offer-3.jpg" alt="Special Offer">
+        <div class="offer-content">
+          <span>Special Offer</span>
+          <h3>Breakfast Deal</h3>
+          <p>25% OFF</p>
+          <a href="#">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<section class="products-section" id="products">
+  <div class="container">
+    <div class="section-header">
+      <h2>Latest Products</h2>
+      <div class="slider-arrows">
+        <div class="swiper-button-prev-custom"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="swiper-button-next-custom"><i class="fa-solid fa-arrow-right"></i></div>
+      </div>
+    </div>
+
+    <div class="swiper products-slider">
+      <div class="swiper-wrapper">
+        
+        <!-- Product 1 -->
+        <div class="swiper-slide product-card">
+          <div class="card-image">
+            <span class="badge discount">-24%</span>
+            <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+            <img src="images/product-1.png" alt="Sofa">
+          </div>
+          <div class="card-info">
+            <span class="brand">CornDell</span>
+            <h3 class="title">Valdez 3 Seater Sofa</h3>
+            <div class="price">
+              <span class="current-price">$599.00</span>
+              <span class="old-price">$786.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="swiper-slide product-card">
+          <div class="card-image">
+            <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+            <img src="images/product-2.png" alt="Lamp">
+          </div>
+          <div class="card-info">
+            <span class="brand">BroyHill</span>
+            <h3 class="title">Arlomore Table Lamp</h3>
+            <div class="price">
+              <span class="current-price">$39.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="swiper-slide product-card">
+          <div class="card-image">
+            <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+            <img src="images/product-3.png" alt="Chair">
+          </div>
+          <div class="card-info">
+            <span class="brand">ApparelArk</span>
+            <h3 class="title">Calligaris Lazy Armchair</h3>
+            <div class="price">
+              <span class="current-price">$147.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="swiper-slide product-card">
+          <div class="card-image">
+            <span class="badge discount">-18%</span>
+            <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+            <img src="images/product-4.png" alt="White Chair">
+          </div>
+          <div class="card-info">
+            <span class="brand">PlushLounge</span>
+            <h3 class="title">Luxe Chair white</h3>
+            <div class="price">
+              <span class="current-price">$150.00</span>
+              <span class="old-price">$182.00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="swiper-slide product-card">
+          <div class="card-image">
+            <button class="wishlist-btn"><i class="fa-regular fa-heart"></i></button>
+            <img src="images/product-5.png" alt="Nightstand">
+          </div>
+          <div class="card-info">
+            <span class="brand">IdealInstitute</span>
+            <h3 class="title">Mobican Nightstand</h3>
+            <div class="price">
+              <span class="current-price">$43.00</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  <!-- Inspiration Section -->
+  <section class="inspiration" id="inspiration">
+    <h2>Be inspired by <span>IdealInstitute</span></h2>
+
+    <div class="inspiration-container">
+      <div class="main-banner">
+        <img src="images/inspiration-banner.jpg" alt="Inspiration Banner">
+      </div>
+
+      <div class="sidebar-products">
+        <div class="mini-product">
+          <img src="images/category-2.png" alt="Chair">
+          <div class="info">
+            <span class="brand">IdealInstitute</span>
+            <h4>Ayvanna Occasional Chair</h4>
+            <div class="price">
+              <span class="new">$202.00</span>
+              <span class="old">$258.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-product">
+          <img src="images/product-9.png" alt="Sofa">
+          <div class="info">
+            <span class="brand">CornDell</span>
+            <h4>Valdez 3 Seater Sofa</h4>
+            <div class="price">
+              <span class="new">$599.00</span>
+              <span class="old">$786.00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-product">
+          <img src="images/lamp-2.jpg" alt="Lamp">
+          <div class="info">
+            <span class="brand">PlushLounge</span>
+            <h4>Touch Bedside Table Lamp</h4>
+            <div class="price">
+              <span class="new">$40.00</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="add-all-btn" id="addMultipleBtn">Add all 3 products to cart</button>
+      </div>
+    </div>
+  </section> 
+
+  <!-- Lighting Section (Collections) -->
+  <section class="lighting-section" id="lighting">
+    <div class="lighting-info">
+      <span class="tag">Lighting</span>
+      <h2>Illuminate Your World –<br>Bright Ideas Start Here!</h2>
+      <p>Discover our lighting collections</p>
+    </div>
+
+    <div class="lighting-gallery">
+      <div class="light-item"><img src="images/lamp-1.jpg" alt="Lighting 1"></div>
+      <div class="light-item"><img src="images/lamp-2.jpg" alt="Lighting 2"></div>
+      <div class="light-item"><img src="images/lamp-3.jpg" alt="Lighting 3"></div>
+      <div class="light-item"><img src="images/lamp-4.jpg" alt="Lighting 4"></div>
+      <div class="light-item"><img src="images/lamp-5.jpg" alt="Lighting 5"></div>
+      <div class="light-item"><img src="images/lamp-6.jpg" alt="Lighting 6"></div>
+    </div>
+  </section>
+
+  <!-- Delivery Banner Section -->
+  <section class="delivery-banner">
+    <div class="delivery-content">
+      <h2>Save on free delivery <a href="#" class="arrow-btn"><i class="fa-solid fa-arrow-right"></i></a></h2>
+      <p>Our own fleet allows us to reduce delivery costs to $0</p>
+    </div>
+    <div class="delivery-img">
+      <img src="images/delivary-banner.jpg" alt="Delivery Fleet">
+    </div>
+  </section>
+
+  <!-- Environment Banner Section -->
+  <section class="environment-section">
+    <div class="environment-overlay">
+      <div class="container">
+        <span class="env-tag">We care about environment</span>
+        <h2>
+          When creating our furniture, we care about the environment. 
+          <span class="highlight">We do not produce waste</span> 
+          that ends up in landfills. We use even the smallest residues during production
+        </h2>
+        <a href="#why-us" class="about-btn">About CozyCorner</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why CozyCorner Section (About) -->
+  <section class="why-us-section" id="why-us">
+    <div class="container">
+      <h2 class="why-title">Why CozyCorner?</h2>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="card-header">
+            <span class="step-number">1</span>
+            <div class="img-box">
+              <img src="images/why-1.jpg" alt="Woodworking Machines">
+            </div>
+          </div>
+          <h3>We use only the best and newest woodworking machines available on the market</h3>
+          <p>Revolutionized the woodworking industry!</p>
+        </div>
+
+        <div class="why-card">
+          <div class="card-header">
+            <span class="step-number">2</span>
+            <div class="img-box">
+              <img src="images/why-2.jpg" alt="Quality Materials">
+            </div>
+          </div>
+          <h3>We use the highest quality materials, hard to find on the market, to make our furniture unique</h3>
+          <p>Ebony, Sandalwood, Purpleheart or Koa... We have it all!</p>
+        </div>
+
+        <div class="why-card">
+          <div class="card-header">
+            <span class="step-number">3</span>
+            <div class="img-box">
+              <img src="images/why-3.jpg" alt="Details and Precision">
+            </div>
+          </div>
+          <h3>Details are what make the difference compared to other furniture. We pay special attention to this.</h3>
+          <p>Be unique!</p>
+        </div>
+      </div>
+    </div>
+  </section>   
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="swiper testimonialsSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              Cozycorner's furniture transformed my living space into a cozy retreat.
+              Stylish designs exceeded my expectations.
+            </p>
+            <span class="client-name">Sarah Wilson</span>
+          </div>
+
+          <div class="swiper-slide testimonial-card">
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="review-text">
+              The quality of wood and attention to detail is remarkable. 
+              Delivery was super fast and customer support was outstanding!
+            </p>
+            <span class="client-name">Michael Brown</span>
+          </div>
+        </div>
+
+        <div class="swiper-pagination test-pagination"></div>
+      </div>
+    </div>
+
+    <div class="swiper-button-prev test-prev"><i class="fa-solid fa-chevron-left"></i></div>
+    <div class="swiper-button-next test-next"><i class="fa-solid fa-chevron-right"></i></div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col brand-col">
+          <div class="footer-logo">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="#10b981">
+              <path d="M12 3L2 12h3v8h14v-8h3L12 3zm0 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/>
+            </svg>
+            <div class="logo-text">
+              <span>COZY</span>
+              <span>CORNER</span>
+            </div>
+          </div>
+
+          <a href="tel:+01012345678" class="contact-pill">
+            <i class="fa-solid fa-phone"></i>
+            +01012345678
+          </a>
+
+          <a href="mailto:contact@cozycorner.com" class="contact-pill">
+            <i class="fa-regular fa-envelope"></i>
+            contact@cozycorner.com
+          </a>
+
+          <div class="address-box">
+            <p>12 El Hosary Square</p>
+            <p>6th of October City</p>
+            <p>Giza, Egypt</p>
+            <a href="https://maps.google.com/?q=El+Hosary+Square+6th+of+October" target="_blank" class="map-link">
+              Show on map
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#products">Desks</a></li>
+            <li><a href="#products">Chairs</a></li>
+            <li><a href="#products">Sofas & Couches</a></li>
+            <li><a href="#products">Storage</a></li>
+            <li><a href="#products">Tables</a></li>
+            <li><a href="#lighting">Lighting</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Rooms</h4>
+          <ul>
+            <li><a href="#">Living Room</a></li>
+            <li><a href="#">Bedroom</a></li>
+            <li><a href="#">Kitchen</a></li>
+            <li><a href="#">Dining Room</a></li>
+            <li><a href="#">Bathroom</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="#inspiration">Inspirations</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#why-us">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#footer">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Account</h4>
+          <ul>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">My Orders</a></li>
+            <li><a href="#">Wishlist</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Shipping</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>All rights Reserved | Made by <a href="#" class="author-link">rewan samy</a></p>
+        <div class="legal-links">
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
